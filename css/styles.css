@@ -142,7 +142,6 @@ img {
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
- 
 }
 .header-link.current-page::after {
   content: "";
@@ -153,6 +152,8 @@ img {
   bottom: -1px;
   background: #404bbf;
   border-radius: 2px;
+}
+.color-studio{
   color: #404bbf;
 }
 .header-link:hover {
