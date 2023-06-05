@@ -675,7 +675,7 @@ img {
 .image-container:hover .overlay-text {
   transform: translatey(0);
 }
-.image-container:focus .overlay-text {
+.portfolio-link:focus .overlay-text {
   transform: translatey(0);
 }
 .backdrop {
