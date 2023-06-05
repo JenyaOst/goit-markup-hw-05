@@ -675,6 +675,9 @@ img {
 .image-container:hover .overlay-text {
   transform: translatey(0);
 }
+.image-container:focus .overlay-text {
+  transform: translatey(0);
+}
 .backdrop {
   position: fixed;
   width: 100%;
