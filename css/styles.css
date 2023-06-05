@@ -627,12 +627,12 @@ img {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.portfolio-link:focus .portfolio-text{
+/* .portfolio-link:focus .portfolio-text{
   transform: translateY(0%);
 }
 .portfolio-link:hover .portfolio-text{
   transform: translateY(0%);
-}
+} */
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
