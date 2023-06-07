@@ -28,11 +28,19 @@
             >Web <span class="header-logo-span">Studio</span></a
           >
           <ul class="header-list list">
-            <li class="item" ><a class="header-link link current-page color-studio" href="./index.html">Studio</a></li>
-            <li class="item " >
+            <li class="item">
+              <a
+                class="header-link link current-page color-studio"
+                href="./index.html"
+                >Studio</a
+              >
+            </li>
+            <li class="item">
               <a class="header-link link" href="./portfolio.html">Portfolio</a>
             </li>
-            <li class="item " ><a class="header-link link" href="">Contacts</a></li>
+            <li class="item">
+              <a class="header-link link" href="">Contacts</a>
+            </li>
           </ul>
         </nav>
         <address class="header-contacts">
@@ -57,7 +65,9 @@
       <section class="solutions-section">
         <div class="container solutions-container">
           <h1 class="solutions-title">Effective Solutions for Your Business</h1>
-          <button type="button" class="solutions-btn" data-modal-open>Order Service</button>
+          <button type="button" class="solutions-btn" data-modal-open>
+            Order Service
+          </button>
         </div>
       </section>
       <section class="values-section">
@@ -77,7 +87,7 @@
               </p>
             </li>
             <li class="values-paragraph-list">
-              <div class="icon-container" >
+              <div class="icon-container">
                 <svg class="values-icon" width="64" height="64">
                   <use href="./images/icons.svg#icon-clock-1"></use>
                 </svg>
@@ -421,15 +431,32 @@
       </div>
     </footer>
     <div class="backdrop is-hidden" data-modal>
-<div class="modal" >
-<button type="button" class="modal-button" data-modal-close>
-  <svg class="modal-close-icon" width="8" height="8">
-    <use href="./images/Close.svg#icon-close-black-18dp-2-1"></use>
-  </svg>
-</button>
-
-</div>
-
+      <div class="modal">
+        <button type="button" class="modal-button" data-modal-close>
+          <svg class="modal-close-icon" width="8" height="8">
+            <use href="./images/Close.svg#icon-close-black-18dp-2-1"></use>
+          </svg>
+        </button>
+        <p class="modal-title">Leave your contacts and we will call you back</p>
+        <form action="">
+          <label for="">
+            Name
+            <input type="text" class="modal-input" name="input-name" />
+          </label>
+          <label for="">
+            Phone
+            <input type="text" class="modal-input" name="input-phone" />
+          </label>
+          <label for="">
+            Email
+          <input type="text" class="modal-input" name="input-email" />
+        </label>
+        <label for="">
+          Comments
+        <textarea name="" id="" class="">Text input</textarea>
+      </label>
+        </form>
+      </div>
     </div>
     <script src="./js/modal.js"></script>
   </body>
